@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lako Home</title>
+    <link rel="stylesheet" href="homeCSS/home.css" />
+    <script
+      src="https://kit.fontawesome.com/0393fe11eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- home -->
+      <main class="home-con" id="homeCOn">
+        <!-- navigation -->
+        <div class="navi" id="navi">
+          <div class="t-logo">
+            <img src="images/team Logo.png" alt="" />
+          </div>
+          <div class="nav" id="navBar">
+            <a href="#homeCOn" class="home"><i class="fa-solid fa-house"></i> HOME</a>
+            <a href="#contactUs" class="contacts"><i class="fa-solid fa-phone"></i> CONTACT</a>
+            <a href="#" class="home" id="loginBtn"><i class="fa-solid fa-user"></i> LOGIN</a>
+          </div>
+        </div>
+        
+        <!-- main content login -->
+        <div class="log-in" id="logIn">
+          <p class="exit" id="exitBtn">x</p>
+          <img src="images/login2.png" alt="">
+          <label for="username">USERNAME</label>
+          <input type="text" class="user-name" id="userName" placeholder="USERNAME"> 
+          
+          <label for="password" id="password">PASSWORD</label>
+          <input type="text" class="user-name" id="userName" placeholder="USERNAME"> 
+          
+          <button type="submit">SUBMIT</button>
+  
+        </div>
+        <!-- main content -->
+        <div class="main-content" id="mainContent">
+          <div class="lako-text" id="lakoText">
+            <div class="gif"></div>
+            <h1>LAKO</h1>
+            <p>We Make Your Business <span>FUN</span> & <span>EASY</span></p>
+          </div>
+          <div class="lako-img" id="lakoImg">
+            <img src="images/bg.png" alt="">
+          </div>
+        </div>
+      </main>
+      <!-- features -->
+      <section class="feature" id="features">
+        <span>FEATURES</span>
+        <div class="main-feature" id="mainFeature">
+           <div class="fcon1" class="fCon1">
+            <img src="images/stocks2.png" alt="">
+           </div>
+           <div class="fcon2" class="fCon2">
+            <img src="images/pos2.png" alt="">
+           </div>
+           <div class="fcon3" class="fCon3">
+            <img src="images/sales.png" alt="">
+           </div>
+        </div>
+        
+      </section>
+      <!-- about us -->
+      <section class="about-us" id="aboutUs">
+        <span>ABOUT US</span>
+        <div class="abt-content" id="abtContent">
+          <div class="a-img" id="aImg">
+            <img src="images/team Logo.png" alt="">
+          </div>
+          <div class="a-content" id="aContent">
+            <h3>WE ARE STUDENTS OF<h2>KODEGO</h2>AND WE ARE FROM BATCH WD23,WE ARE AIMING TO BECOME GOOD AT WEB DEVELOPING AND WE ARE VERY GLAD WE GOT THE CHANCE TO TO IT HERE</h3>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial -->
+      <section class="testimonial" id="testimonials">
+        <span>TESTIMONIALS</span>
+        <div class="main-test" id="mainTest">
+          <div class="tcon1" class="tCon1">
+            <img src="images/testimonial1.png" alt="">
+          </div>
+          <div class="tcon2" class="tCon2">
+            <img src="images/testimonial3.png" alt="">
+          </div>
+          <div class="tcon3" class="tCon3">
+            <img src="images/testimonial4.png" alt="">
+          </div> 
+       </div>
+      </section>
+      <!-- contact -->
+      <section class="contact" id="contactUs">
+        <span>CONTACT US</span>
+        <div class="c-content" id="cContent">
+          <div class="c-img" id="cImg">
+            <img src="images/callus.png" alt="">
+            <h2>+63 123456789</h2>
+          </div>
+          <div class="c-msg" id="cMsg">
+            <img src="images/email.png" alt="">
+            <label for="name">Fullname</label>
+            <input type="text" name="name" class="name" id="name" placeholder="Andres Bonifacia jr.">
+            <label for="number">Contact no.</label>
+            <input type="number" name="name" class="name" id="name" placeholder="091712345678">
+            <!-- <label for="message">Message Us</label> -->
+            <textarea name="message" class="message" id="msg" cols="30" rows="10" placeholder="Your message Here..."></textarea>
+            <button type="submit">SEND</button>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="foot" id="footer">
+        <span>FOOT</span>
+      </footer>
+    </div>
+    <script src="homeJS/home.js"></script>
+  </body>
+</html>
