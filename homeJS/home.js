@@ -12,4 +12,18 @@ const exitBtn = document.querySelector("#exitBtn");
    function close() {
      loginDisplay.style.display = "none";
    }
-  
+//dropdown button
+const ddList = document.querySelector("#navBar");
+const ddBtn = document.querySelector("#ddBtn");
+   ddBtn.addEventListener("click", showList);
+   function showList() {
+     ddList.style.display = "flex";
+   }
+//dropdown closeBtn 
+const closeDd = document.querySelector("#closeList");
+   closeDd.addEventListener("click", hideList);
+   function hideList() {
+     ddList.style.display = "none";
+   }
+
+
